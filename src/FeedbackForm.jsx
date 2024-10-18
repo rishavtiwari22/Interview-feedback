@@ -128,8 +128,8 @@ const MentorReportForm = () => {
         {error && <p className="error">{error}</p>}
         <div className="form-grid">
           <div className="form-group">
-            <label>Students Name:</label>
-            <input type="text" placeholder='Name' value={studentEmail} onChange={(e) => setStudentEmail(e.target.value)} required />
+            <label>Students Email:</label>
+            <input type="text" placeholder='Email' value={studentEmail} onChange={(e) => setStudentEmail(e.target.value)} required />
           </div>
           <div className="form-group">
             <label>Date of Report:</label>
