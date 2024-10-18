@@ -77,7 +77,8 @@ const MentorReportForm = () => {
           5. A recap of the feedback provided by the student.
           6. An encouraging conclusion to motivate the student and emphasize a positive outlook.
 
-          Make sure the summary is formatted as a professional email, maintaining a clear and supportive tone. Avoid using any bold text, asterisks, or other symbols for emphasis. Focus on making the message look professional, engaging, and easy to read.`;
+          Make sure the summary is formatted as a professional email, maintaining a clear and supportive tone. Avoid using any bold text, asterisks, or other symbols for emphasis. Focus on making the message look professional, engaging, and easy to read.
+          also Don't add so many things just correct it and make it little more detailed`;
 
 
       const result = await model.generateContent(prompt);
