@@ -22,6 +22,11 @@ const MentorReportForm = () => {
       return;
     }
 
+    if (!studentEmail.includes('@navgurukul.org')){
+      alert('Enter correct Email!\nEx: example@navgurukul.org')
+      return;
+    }
+
     const formData = {
       studentEmail,
       Interviewer,
