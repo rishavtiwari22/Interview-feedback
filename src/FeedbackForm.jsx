@@ -151,7 +151,7 @@ const MentorReportForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Interviewer Email:</label>
+            <label>Interviewer Name:</label>
             <textarea value={Interviewer} placeholder='Interviewer name' onChange={(e) => setInterviewer(e.target.value)} required />
           </div>
 
