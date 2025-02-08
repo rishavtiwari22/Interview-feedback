@@ -38,7 +38,7 @@ const MentorReportForm = () => {
     console.log('Form data:', formData);
 
     // Analyze the data
-    const genAI = new GoogleGenerativeAI("AIzaSyDD6Tf5lWYn0ePYNgYU0R5bSi9vmDNbjL4");
+    const genAI = new GoogleGenerativeAI("AIzaSyC-DG2yvor-_VuORmRks43BGmuR0omNzqc");
 
     async function analyzeData() {
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
